@@ -1,0 +1,41 @@
+.file-table-container {
+    border: 2px dashed #ccc;
+    padding: 10px;
+  }
+  
+  .table-container {
+    margin-top: 90px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 8px;
+    text-align: center; 
+    color: burlywood;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: center; 
+    color: black;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  

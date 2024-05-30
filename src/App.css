@@ -1,6 +1,30 @@
 .App {
-  text-align: center;
+  background-color: #282c34;
 }
+
+.upload-hist-header{
+  display: inline-block;
+  color: #61dafb;
+  text-align: left;
+  margin-left: 2%;
+  padding-top: 10%;
+}
+
+.upload-hist-count{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #333; /* Circle border */
+  border-radius: 50%; /* Make it round */
+  text-align: center;
+  line-height: 30px;
+  background-color: #f44336; /* Background color */
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
 
 .App-logo {
   height: 40vmin;
