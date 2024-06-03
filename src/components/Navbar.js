@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTrashAlt } from 'react-icons/fa';
+import { FaTrashAlt, FaHome } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
@@ -13,6 +13,9 @@ const Navbar = ({ deletedCount }) => {
         <span className="navbar-title">CLOUD STORAGE DASHBOARD</span>
       </div>
       <div className="navbar-right">
+        <div className="navbar-icon-container" onClick={() => navigate('/')}>
+          <FaHome className="navbar-icon" />
+        </div>
         <div className="navbar-icon-container" onClick={() => navigate('/deleted-files')}>
           <FaTrashAlt className="navbar-icon" />
           {deletedCount > 0 && (

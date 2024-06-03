@@ -1,19 +1,15 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import './DeletedFiles.css';
+import './DeletedFiles.css'; // Import the CSS file
 
 const DeletedFiles = ({ deletedFiles, restoreFile }) => {
-  const navigate = useNavigate();
-
   const handleRestore = (index) => {
     restoreFile(index);
   };
 
   return (
-    <div className="deleted-files">
-      <h2>Deleted Files</h2>
-      <button onClick={() => navigate('/')}>Back</button>
-      <table>
+    <div className="table-container">
+      <h2 className="header">Deleted Files</h2>
+      <table className="file-table-container">
         <thead>
           <tr>
             <th>File Name</th>

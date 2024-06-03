@@ -23,12 +23,15 @@
 }
 
 .navbar-right {
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-icon-container {
   position: relative;
   display: inline-block;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .navbar-icon {
